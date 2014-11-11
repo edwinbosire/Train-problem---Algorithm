@@ -4,6 +4,9 @@ This is the solution to an interview I did with a consultancy firm many moons ag
 
 PS: The current solution has added modifications that are not part of the original questions, so copy-pasters be ware.
 
+###caveat
+
+I never wrote any tests for this code. Also, I give no gurantee that this solution is optimum, but it was good enough to get me through the interview.
 
 ### Problem
 
