@@ -4,9 +4,12 @@ This is the solution to an interview I did with a consultancy firm many moons ag
  
 ###Possible Solutions: 
  This was directed Acyclic graph (DAG) problem, I didn't know this at the time and coded loops around this concept.
+ 
  We could use an adjacency list, although an adjacency matrix would be quicker in answering Q1-Q5, as they are simple lookups   and provide Ø(1) time lookup. Edge information has to be stored in the node if using a matrix.
+ 
  This is a perfect candidate for Breadth First Search.
- Where the weight of the edge is in question, we upgrade our standard BFS search to Dijkstra's algorithm
+ 
+ Where the weight of the edge is in question, we upgrade our standard BFS search to Dijkstra's algorithm.
  
 ###caveat
 
