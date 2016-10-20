@@ -2,8 +2,12 @@
 
 This is the solution to an interview I did with a consultancy firm many moons ago. I chose to use Java even though I knew as much Java as a dog knows how to skate, either way I ended up with a working solution.
  
- I used a directed graph to get my solution.
-
+###Possible Solutions: 
+ This was directed Acyclic graph (DAG) problem, I didn't know this at the time and coded loops around this concept.
+ We could use an adjacency list, although an adjacency matrix would be quicker in answering Q1-Q5, as they are simple lookups   and provide Ø(1) time lookup. Edge information has to be stored in the node if using a matrix.
+ This is a perfect candidate for Breadth First Search.
+ Where the weight of the edge is in question, we upgrade our standard BFS search to Dijkstra's algorithm
+ 
 ###caveat
 
 I never wrote any tests for this code. Also, I give no gurantee that this solution is optimum, but it was good enough to get me through the interview.
