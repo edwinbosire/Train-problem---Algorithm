@@ -1,3 +1,5 @@
+**Update 17th Nov 2016: After spending some time properly learning graphing algorithms, I've come to the obvious conclusion that the solution provided here is absolutely 💩💩💩  **
+
 #Readme
 
 This is the solution to an interview I did with a consultancy firm many moons ago. I chose to use Java even though I knew as much Java as a dog knows how to skate, either way I ended up with a working solution.
